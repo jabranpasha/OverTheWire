@@ -10,5 +10,5 @@ After doing some research I found two ways to get past that issue and read the c
   - By putting the absolute path in the command, you can read the file
   - `cat /home/bandit1/-`
 - < (take input)
-  - By taking the input of the file with `<` and inputting that into the cat command, you can read the file
+  - By taking the input of the file with `<` and inputting that into the `cat` command, you can read the file
   - `cat <-`
