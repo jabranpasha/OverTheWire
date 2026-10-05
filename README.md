@@ -1,5 +1,4 @@
 # OverTheWire
-Notes and walkthroughs for OverTheWire's Bandit wargame: Linux CLI, file permissions, SSH, and text processing
 My notes and walkthroughs from working through OverTheWire wargames, starting with Bandit. I'm using them to build Linux command-line and security fundamentals.
 
 
@@ -9,7 +8,7 @@ My notes and walkthroughs from working through OverTheWire wargames, starting wi
 |---------|------------------|--------|
 | Bandit  | 0–9              | In progress (working on 10) |
 
-## Skills practiced:
+## Skills practiced
 - Linux CLI navigation and file handling (ls, cd, cat, file, find)
 - File permissions, ownership, and hidden files
 - Connecting to remote hosts over SSH
