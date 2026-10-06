@@ -16,4 +16,4 @@ My notes and walkthroughs from working through OverTheWire wargames, starting wi
 
 
 ## Note
-Passwords are not included. OverTheWire asks players not to publish them, and the point of these notes is to document the approach I took.
+Passwords are not included. OverTheWire asks players not to publish them, and the point of these notes is to document the approach I took to each level, not to post the answers.
