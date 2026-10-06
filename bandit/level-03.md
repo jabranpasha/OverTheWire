@@ -12,7 +12,7 @@ Rather than the command hanging, having a file start with `--` means the command
   - `cat ./'--spaces in this filename--'`
   - `cat /home/bandit2/'--spaces in this filename--'`
 - `<` (take input)
-  - With `<` the contents of the file are directly passed into cat as stdin, so the file isn't read at all by cat, quotes are still needed though for `<` to work correctly.
+  - With `<` the contents of the file are directly passed into cat as stdin, so the filename isn't read at all by cat, quotes are still needed though for `<` to work correctly.
   - `cat <'--spaces in this filename--'`
 - `--`
   - Putting this as the first argument will tell the command to no longer read any more options, even if they start with `-`, so the command works correctly, given you wrap it with quotes
