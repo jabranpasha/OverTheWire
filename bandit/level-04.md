@@ -8,4 +8,5 @@ Simply using the `cat` command with the name of the hidden file, that starts wit
 
 ## Steps:
 - `cd inhere`
+- `ls -a`
 - `cat ...Hiding-From-You`
