@@ -11,6 +11,6 @@ In this scenario, the `*` is a wildcard, which basically means the shell will ex
 
 After running `file ./*` you get the following result
 
-<img width="338" height="210" alt="image" src="https://github.com/user-attachments/assets/660bf186-10ba-4311-84b6-bb2998ba8a53" />
+<img width="305" height="204" alt="image" src="https://github.com/user-attachments/assets/2f0fc783-0e0d-45e2-aead-fc9f958c1f8b" />
 
 Then, simply running `cat ./-file07` will get you the result you need.
