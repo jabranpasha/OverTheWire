@@ -7,5 +7,5 @@ Hidden files start with a `.` in the filename, and ls hides them by default. One
 Simply using the `cat` command with the name of the hidden file, that starts with a `.` gets you the password.
 
 ## Steps:
-`cd inhere`
-`cat ...Hiding-From-You`
+- `cd inhere`
+- `cat ...Hiding-From-You`
