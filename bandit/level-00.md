@@ -1,4 +1,4 @@
-# Level 00
+# Level 0
 The first thing I had to do was give myself a refresher on ssh and its formatting, and figure out how to ssh into the remote host in the first place.
 
 The host name is given and the command to connect is
