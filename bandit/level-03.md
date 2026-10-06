@@ -4,7 +4,7 @@ This level is fairly similar in concept to the previous one. The password is in 
 
 Two of the previous methods work, but with the caveat that you need to put single quotes surrounding the filename, and they work for different reasons than before.
 
-Rather than the command hanging, having a file start with `--` leaves the command waiting for an option instead of an input.
+Rather than the command hanging, having a file start with `--` means the command will read the first part of the filename (before the first space) as an option, and since it's an unrecognized option, an error is thrown.
 
 - ./ (path)
   - By giving the path, the command no longer starts with `-`, so it doesn't read it as an option anymore.
