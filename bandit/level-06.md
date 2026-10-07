@@ -6,12 +6,12 @@ We can accomplish this by doing the following:
 - using the `-size` option.
 - negating the `-executable` option with !
 - using the `-type` option to filter for files
+- starting from the starting directory with `.`
 
 This results in this command
-`find . -type f -size 1033c ! -executable`
 
-Like so: `find -size 1033c`.
+`find . -type f -size 1033c ! -executable`
 
 We find that the password is located here
 
-<img width="421" height="45" alt="image" src="https://github.com/user-attachments/assets/3dc90eda-b94b-46d7-9998-2f197620b0ae" />
+<img width="706" height="46" alt="image" src="https://github.com/user-attachments/assets/e4340ff0-7f80-4285-acd3-f207d0a2ed94" />
