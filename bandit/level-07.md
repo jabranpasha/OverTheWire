@@ -14,8 +14,15 @@ We can check for all of these things with the find options we've used so far, as
 
 Unfortunately, doing this produces a bunch of permission denied messages
 
-<img width="671" height="223" alt="image" src="https://github.com/user-attachments/assets/0ba662c6-28e3-4207-bb2c-88d1519bf87a" />
+<img width="690" height="249" alt="image" src="https://github.com/user-attachments/assets/ac8d35b9-9ab8-405d-b0bf-1ae36d4b90b3" />
 
-After doing some research, I learned a way to suppress error messages. You can do so, by sending the `stderr` flow into `/dev/null` folder, which is commonly called the "black hole folder", since it automatically deletes anything that's sent to it.
+After doing some research, I learned a way to suppress error messages. You can do so, by sending the `stderr` flow into `/dev/null` file, which is commonly called the "black hole", since it automatically discards anything that's sent to it.
+
+Every program in Linux writes to one of three streams:
+- 0 (stdin)
+- 1 (stdout)
+- 2 (stderr)
+
+0 is for inputs, 1 is for outputs, and 3 is for errors.
 
 After doing the command `find / -type f -size 33c -user bandit7 -group bandit6 2>/dev/null`, you find the file where the password is located and `cat` it.
